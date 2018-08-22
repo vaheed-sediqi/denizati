@@ -1,5 +1,9 @@
 /*white color #E9EBEE */
-/*blue text color #d3325f */
+/*blue text color #46938B */
+body{
+    font-family: 'Patua One', cursive;
+}
+
 .info{
     background: #E9EBEE;
 }
@@ -38,3 +42,35 @@ h1 strong{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+.height-90{
+        min-height: calc(100vh - 94px);
+}
+
+.banner h1 {
+    border-top: 6px dotted #46938B;
+    margin-top: 2%;
+    color: #46938B;
+}
+
+.banner h2 {
+    border-bottom: 6px dotted #46938B;
+    margin-top: 2%;
+    color: #E9EBEE;
+}
+
+.main-btn{
+    color:#46938B;
+    font-size: 2rem;
+    border: 2px solid #46938B;
+    transition:all 1s ease-in-out;
+    border-radius:20px;
+}
+
+.main-btn:hover{
+    color:#242424;
+    border:2px solid #E9EBEE;
+    background-color: #E9EBEE;
+}
+
+
