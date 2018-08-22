@@ -51,12 +51,14 @@ h1 strong{
     border-top: 6px dotted #46938B;
     margin-top: 2%;
     color: #46938B;
+    font-size: 300%;
 }
 
 .banner h2 {
     border-bottom: 6px dotted #46938B;
     margin-top: 2%;
     color: #E9EBEE;
+    font-size: 300%;
 }
 
 .main-btn{
@@ -71,6 +73,16 @@ h1 strong{
     color:#242424;
     border:2px solid #E9EBEE;
     background-color: #E9EBEE;
+}
+
+@media only screen and (min-width: 770px) {
+    #title1{
+        font-size: 700%;
+    }
+    
+     #title2{
+        font-size: 600%;
+    }
 }
 
 
