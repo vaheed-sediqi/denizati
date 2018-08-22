@@ -22,6 +22,13 @@
 h1 strong{
     color: white;
 }
+
+#logo{
+    height: 130px;
+    width: 130px;
+    margin-top: 5%;
+    border-radius: 50%;
+}
 /*-----header------*/
 #header{
     min-height: calc(100vh - 94px);
