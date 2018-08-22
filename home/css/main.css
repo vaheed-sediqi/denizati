@@ -66,13 +66,14 @@ h1 strong{
     font-size: 2rem;
     border: 2px solid #46938B;
     transition:all 1s ease-in-out;
+    background-color: #E9EBEE;
     border-radius:20px;
 }
 
 .main-btn:hover{
     color:#242424;
-    border:2px solid #E9EBEE;
     background-color: #E9EBEE;
+    opacity: 0.5;
 }
 
 @media only screen and (min-width: 770px) {
