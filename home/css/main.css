@@ -31,7 +31,9 @@ h1 strong{
     height: 130px;
     width: 130px;
     margin-top: 5%;
+    border: 5px double #6A4616;
     border-radius: 50%;
+    box-sizing: content-box;
 }
 /*-----header------*/
 #header{
@@ -64,16 +66,15 @@ h1 strong{
 .main-btn{
     color:#46938B;
     font-size: 2rem;
-    border: 2px solid #46938B;
+    border: 2px double #6A4616;
     transition:all 1s ease-in-out;
     background-color: #E9EBEE;
     border-radius:20px;
 }
 
 .main-btn:hover{
-    color:#242424;
-    background-color: #E9EBEE;
-    opacity: 0.5;
+    color:#6A4616;
+    background-color: wheat;
 }
 
 @media only screen and (min-width: 770px) {
