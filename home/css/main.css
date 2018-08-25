@@ -30,19 +30,20 @@ h1 strong{
 #logo{
     height: 130px;
     width: 130px;
-    margin-top: 5%;
+    margin-top: 1%;
     border: 5px double #6A4616;
     border-radius: 50%;
     box-sizing: content-box;
 }
 /*-----header------*/
 #header{
-    min-height: calc(100vh - 94px);
+    min-height: calc(115vh - 94px);
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bg.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .height-90{
@@ -54,6 +55,10 @@ h1 strong{
     margin-top: 2%;
     color: #46938B;
     font-size: 200%;
+    animation: fromRight;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
 .banner h2 {
@@ -61,6 +66,24 @@ h1 strong{
     margin-top: 2%;
     color: #E9EBEE;
     font-size: 200%;
+    animation: fromLeft;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .main-btn{
@@ -74,7 +97,45 @@ h1 strong{
 
 .main-btn:hover{
     color:#6A4616;
-    background-color: wheat;
+    background-color: none;
+}
+
+.denizati-btn{
+    animation: fromRight;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fromRight{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.header-link{
+ display: inline-block;
+ position: absolute;
+ bottom: 5%;
+ left: 48%;
+ background: #E9EBEE;
+ border-radius: 10px;
+transition:all 1s ease-in-out;
+}
+
+.header-link:hover{
+    color:#6A4616;
+    background-color: none;
 }
 
 @media only screen and (min-width: 770px) {
@@ -85,6 +146,21 @@ h1 strong{
      #title2{
         font-size: 600%;
     }
+    
+}
+
+@media only screen and (max-width: 770px) {
+    #logo{
+        margin-top:-100px;
+    }
+    
+    .header-link{
+     bottom:30%; 
+    }
+    .main-btn{
+        
+    }
+    
 }
 
 
