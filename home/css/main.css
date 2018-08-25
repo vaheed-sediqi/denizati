@@ -42,7 +42,7 @@ h1 strong{
 /*-----header------*/
 #header{
     min-height: calc(115vh - 94px);
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bg.jpeg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bgr.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
