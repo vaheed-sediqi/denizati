@@ -57,7 +57,7 @@ h1 strong{
 .banner h1 {
     border-top: 6px dotted #46938B;
     margin-top: 2%;
-    color: #46938B;
+    color: #6A4616;
     font-size: 200%;
     animation: fromRight;
     animation-duration: 4s;
@@ -68,7 +68,7 @@ h1 strong{
 .banner h2 {
     border-bottom: 6px dotted #46938B;
     margin-top: 2%;
-    color: #E9EBEE;
+    color: #46938B;
     font-size: 200%;
     animation: fromLeft;
     animation-duration: 4s;
