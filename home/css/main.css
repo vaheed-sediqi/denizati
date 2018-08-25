@@ -34,6 +34,10 @@ h1 strong{
     border: 5px double #6A4616;
     border-radius: 50%;
     box-sizing: content-box;
+    animation: fromLeft;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 /*-----header------*/
 #header{
@@ -127,7 +131,7 @@ h1 strong{
  display: inline-block;
  position: absolute;
  bottom: 5%;
- left: 48%;
+ left: 47%;
  background: #E9EBEE;
  border-radius: 10px;
 transition:all 1s ease-in-out;
