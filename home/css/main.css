@@ -135,6 +135,22 @@ h1 strong{
  background: #E9EBEE;
  border-radius: 10px;
 transition:all 1s ease-in-out;
+animation:fromBottom;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes fromBottom{
+    0%{
+        transform: translateY(-10px);
+    }
+    
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10);
+    }
 }
 
 .header-link:hover{
