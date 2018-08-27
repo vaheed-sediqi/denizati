@@ -28,16 +28,12 @@ h1 strong{
 }
 
 #logo{
-    height: 130px;
-    width: 130px;
+    height: 70px;
+    width: 70px;
     margin-top: 1%;
-    border: 5px double #6A4616;
+    border: 2px double #6A4616;
     border-radius: 50%;
     box-sizing: content-box;
-    animation: fromLeft;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
 }
 /*-----header------*/
 #header{
@@ -58,23 +54,12 @@ h1 strong{
     border-top: 6px dotted #46938B;
     margin-top: 2%;
     color: #46938B;
-    font-size: 200%;
     animation: fromRight;
     animation-duration: 4s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
-.banner h2 {
-    border-bottom: 6px dotted #46938B;
-    margin-top: 2%;
-    color: #E9EBEE;
-    font-size: 200%;
-    animation: fromLeft;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
 
 @keyframes fromLeft{
     0%{
@@ -158,29 +143,11 @@ animation-iteration-count: infinite;
     background-color: none;
 }
 
-@media only screen and (min-width: 770px) {
-    #title1{
-        font-size: 700%;
+@media only screen and (max-width: 390px) {
+    .banner h1 {
+        font-size: 5rem;
     }
-    
-     #title2{
-        font-size: 600%;
-    }
-    
 }
 
-@media only screen and (max-width: 770px) {
-    #logo{
-        margin-top:-100px;
-    }
-    
-    .header-link{
-     bottom:30%; 
-    }
-    .main-btn{
-        
-    }
-    
-}
 
 
