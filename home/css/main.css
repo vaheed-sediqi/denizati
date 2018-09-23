@@ -2,6 +2,7 @@
 /*blue text color #46938B */
 body{
     font-family: 'Patua One', cursive;
+    background:url('../img/bgg.jpeg')center/cover fixed no-repeat;
 }
 
 .info{
@@ -38,7 +39,7 @@ h1 strong{
 /*-----header------*/
 #header{
     min-height: calc(115vh - 94px);
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bgg.jpeg);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/bg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -51,9 +52,10 @@ h1 strong{
 }
 
 .banner h1 {
-    border-top: 6px dotted #46938B;
+    border-top: 6px dotted orange;
+    border-bottom: 6px dotted orange;
     margin-top: 2%;
-    color: #46938B;
+    color: orange;
     animation: fromRight;
     animation-duration: 4s;
     animation-delay: 2s;
@@ -76,17 +78,16 @@ h1 strong{
 }
 
 .main-btn{
-    color:#46938B;
+    color:orange;
     font-size: 2rem;
-    border: 2px double #6A4616;
+    border: 2px double orange;
     transition:all 1s ease-in-out;
-    background-color: #E9EBEE;
-    border-radius:20px;
+    background-color: transparent;
+    border-top-right-radius:35px;
 }
 
 .main-btn:hover{
-    color:#6A4616;
-    background-color: none;
+    background-color: orange;
 }
 
 .denizati-btn{
@@ -117,7 +118,8 @@ h1 strong{
  position: absolute;
  bottom: 5%;
  left: 47%;
- background: #E9EBEE;
+ background: orange;
+ color:white;
  border-radius: 10px;
 transition:all 1s ease-in-out;
 animation:fromBottom;
@@ -148,6 +150,22 @@ animation-iteration-count: infinite;
         font-size: 5rem;
     }
 }
+
+/*========menu items=========*/
+.item-container{
+    position: relative;
+    /*for the link*/
+    text-overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
 
 
 
