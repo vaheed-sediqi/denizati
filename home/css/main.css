@@ -6,12 +6,12 @@ body{
 }
 
 .info{
-    background: #E9EBEE;
+    background: white;
 }
 
 
 .primary-color{
-    color:#46938B;
+    color:orange;
 }
 
 .info h2{
@@ -39,7 +39,6 @@ h1 strong{
 /*-----header------*/
 #header{
     min-height: calc(115vh - 94px);
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/seahorse.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -145,11 +144,7 @@ animation-iteration-count: infinite;
     background-color: none;
 }
 
-@media only screen and (max-width: 390px) {
-    .banner h1 {
-        font-size: 5rem;
-    }
-}
+
 
 /*========menu items=========*/
 .item-container{
@@ -195,6 +190,12 @@ animation-iteration-count: infinite;
     outline: 10px solid orange; /*=====This is the outline of the menu hover======*/
     outline-offset: 0.5rem; /*=====it seprate the outline from the picture========*/
     outline-style: ridge;
+}
+
+@media only screen and (max-width: 390px) {
+    .banner h1 {
+        font-size: 5rem;
+    }
 }
 
 
